@@ -1,0 +1,202 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding: 30px;
+  background-color: #666666;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.dataGrid {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #666666;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.dataGrid th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 2px solid #ddd;
+}
+
+.dataGrid th {
+  background-color: rgb(117, 115, 115);
+  font-weight: bold;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+}
+
+
+tr:hover {
+  background-color: #C4DFDF;
+  color: black;
+  transition: 0.3s;
+}
+
+.table-container {
+  /* max-height: 500px; */
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+.rowsPerPage {
+  background-color: #666666;
+  color: white;
+  /* text-align: end; */
+}
+
+.rowsPerPage label {
+  font-size: 17px;
+  margin-left: 10px;
+  padding: 10px;
+}
+
+.selector {
+  background-color: #666666;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 10px;
+}
+
+.buttons {
+  background-color: #484848;
+  border-radius: 22px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  position: relative;
+  width: 40%;
+}
+
+.buttons button {
+  margin-left: 15px;
+  display: relative;
+}
+
+.btn {
+  /* margin-top: 10px;
+  margin-right: 30px;
+  margin-bottom: 10px; */
+  border: none;
+  background-color: #C4DFDF;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 22px;
+  transition-duration: 0.4s;
+  float: left;
+}
+
+.MuiDataGrid-root {
+  color: white;
+  border: none !important;
+}
+
+.MuiDataGrid-cell {
+  color: white;
+}
+
+.MuiDataGrid-columnHeaderTitle {
+  color: white;
+  border: 0;
+}
+
+.MuiToolbar-root {
+  color: white !important;
+}
+
+.MuiSelect-root {
+  color: white;
+}
+
+h1 {
+  color: #fc7500;
+  width: 100%;
+  margin-top: 60px;
+  margin-left: 20px;
+}
+
+.MuiIconButton-label {
+  color: white !important;
+}
+
+.MuiDataGrid-selectedRowCount {
+  color: white !important;
+}
+
+.hrclogo {
+  width: 250px;
+  display: block;
+  margin-left: 550px;
+  margin-right: auto;
+  margin-top: 30px;
+  filter: brightness(0) invert(1);
+}
+
+.abclogo {
+  float: left;
+  filter: brightness(0) invert(1);
+}
+
+.footer {
+  background-color: orange;
+  margin-right: 20px;
+}
+
+.MuiTab-wrapper {
+  color: white !important;
+}
+
+.PrivateTabIndicator-root-2 {
+  background-color: white !important;
+}
+
+
+/* Customizing ScrollBar */
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #666666;
+  border-radius: 6px;
+  border: 3px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #3a3a3a;
+}
+
+.Footer {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 100;
+  font-style: normal;
+
+}
+
+.Footer a {
+  color: #fc7500;
+  text-decoration: none;
+}
+
+.data-highcharts-chart {
+  text-align: right !important;
+}
